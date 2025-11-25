@@ -1,2 +1,1 @@
-# app-ads-txt
-AdMob app-ads.txt file
+https://apptelligent-coding.de
