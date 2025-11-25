@@ -34,16 +34,18 @@
           }
 
           .logo {
-              width: 100px;
-              height: 100px;
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-              border-radius: 25px;
+              width: 120px;
+              height: 120px;
               margin: 0 auto 30px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              font-size: 48px;
-              box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+              border-radius: 25px;
+              overflow: hidden;
+              box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+          }
+
+          .logo img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
           }
 
           h1 {
@@ -168,7 +170,9 @@
   </head>
   <body>
       <div class="container">
-          <div class="logo">📍</div>
+          <div class="logo">
+              <img src="https://apptelligent-coding.de/.cm4all/uproc.php/0/.Logo_1.png/picture-2600?_=19a2630d397" alt="PicLoc Logo">
+          </div>
 
           <h1>PicLoc</h1>
           <p class="tagline">Teile deine Lieblingsorte mit der Welt</p>
